@@ -1,0 +1,1 @@
+using PLTUserManagement as service from '../../srv/external/PLTUserManagement.csn';

@@ -1,0 +1,16 @@
+{
+  "xsappname":"capxsapp",
+  "tenant-mode": "dedicated",
+  "scopes": [],
+  "attributes": [],
+  "role-templates": [],
+  "oauth2-configuration":{
+    "credential-types":[
+      "binding-secret",
+      "x509"
+    ],
+    "redirect-uris": [
+      "https://**cfapps.us10.hana.ondemand.com/**"
+    ]
+  }
+}

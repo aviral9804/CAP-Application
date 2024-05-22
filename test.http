@@ -1,0 +1,11 @@
+GET http://localhost:4004/projman/Project
+#### POST Request 
+POST http://localhost:4004/projman/Project
+content-type: application/json;odata.metadata=minimal
+{
+   "name":"S/4HANA Cloud implementation",
+    "description":"Global implementation of the S/4HANA Cloud ERP in the organization",
+    "startDate":"2022-01-02",
+    "endDate":"2022-09-30",
+    "status_ID":"1" 
+}
